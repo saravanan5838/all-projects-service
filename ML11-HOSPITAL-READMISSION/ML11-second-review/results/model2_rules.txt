@@ -1,0 +1,110 @@
+POINTS SCORE
+                            Condition  Points
+Inpatient admissions (past year) >= 2       5
+Inpatient admissions (past year) >= 1       4
+        Discharged to a care facility       2
+    Emergency visits (past year) >= 1       1
+                      Discharged home      -3
+
+SCORE TO RISK
+ Score Chance of readmission
+    -3                  7.1%
+    -2                  7.9%
+    -1                  8.8%
+     0                  9.8%
+     1                 10.8%
+     2                 12.0%
+     3                 13.2%
+     4                 14.6%
+     5                 16.1%
+     6                 17.7%
+     7                 19.4%
+     8                 21.3%
+     9                 23.3%
+    10                 25.4%
+    11                 27.6%
+    12                 30.0%
+
+IF-THEN RULES
+Rule 1: IF Inpatient admissions (past year) >= 5
+        AND Emergency visits (past year) >= 1
+        THEN 42.2% were readmitted (716 training patients, 3.7x the average)
+
+Rule 2: IF Inpatient admissions (past year) >= 5
+        AND Emergency visits (past year) = 0
+        AND Age <= 70
+        THEN 36.2% were readmitted (567 training patients, 3.2x the average)
+
+Rule 3: IF Inpatient admissions (past year) >= 5
+        AND Emergency visits (past year) = 0
+        AND Age >= 71
+        THEN 26.9% were readmitted (331 training patients, 2.4x the average)
+
+Rule 4: IF Inpatient admissions (past year) = 1
+        AND Discharged to a care facility = Yes
+        AND Age <= 80
+        AND Number of diagnoses <= 8
+        THEN 23.1% were readmitted (732 training patients, 2.0x the average)
+
+Rule 5: IF Inpatient admissions (past year) between 3 and 4
+        THEN 21.4% were readmitted (3,906 training patients, 1.9x the average)
+
+Rule 6: IF Inpatient admissions (past year) = 2
+        THEN 18.0% were readmitted (5,867 training patients, 1.6x the average)
+
+Rule 7: IF Inpatient admissions (past year) = 1
+        AND Discharged to a care facility = Yes
+        AND Age <= 80
+        AND Number of diagnoses >= 9
+        THEN 16.6% were readmitted (1,418 training patients, 1.5x the average)
+
+Rule 8: IF Inpatient admissions (past year) <= 1
+        AND Discharged to a care facility = Yes
+        AND Age >= 81
+        AND Diabetes dose changes >= 1
+        THEN 16.1% were readmitted (1,514 training patients, 1.4x the average)
+
+Rule 9: IF Inpatient admissions (past year) = 0
+        AND Discharged to a care facility = Yes
+        AND Age <= 80
+        THEN 15.6% were readmitted (6,225 training patients, 1.4x the average)
+
+Rule 10: IF Inpatient admissions (past year) = 1
+        AND Discharged to a care facility = No
+        AND Number of diagnoses >= 9
+        THEN 13.5% were readmitted (5,861 training patients, 1.2x the average)
+
+Rule 11: IF Inpatient admissions (past year) <= 1
+        AND Discharged to a care facility = Yes
+        AND Age >= 81
+        AND Diabetes dose changes = 0
+        THEN 12.3% were readmitted (3,921 training patients, 1.1x the average)
+
+Rule 12: IF Inpatient admissions (past year) = 0
+        AND Discharged to a care facility = No
+        AND Number of diagnoses >= 9
+        AND Discharged home = No
+        THEN 11.1% were readmitted (4,318 training patients, 1.0x the average)
+
+Rule 13: IF Inpatient admissions (past year) = 1
+        AND Discharged to a care facility = No
+        AND Number of diagnoses <= 8
+        THEN 10.5% were readmitted (5,823 training patients, 0.9x the average)
+
+Rule 14: IF Inpatient admissions (past year) = 0
+        AND Discharged to a care facility = No
+        AND Number of diagnoses >= 9
+        AND Discharged home = Yes
+        THEN 7.9% were readmitted (13,045 training patients, 0.7x the average)
+
+Rule 15: IF Inpatient admissions (past year) = 0
+        AND Discharged to a care facility = No
+        AND Number of diagnoses <= 8
+        AND Age >= 61
+        THEN 7.2% were readmitted (14,245 training patients, 0.6x the average)
+
+Rule 16: IF Inpatient admissions (past year) = 0
+        AND Discharged to a care facility = No
+        AND Number of diagnoses <= 8
+        AND Age <= 60
+        THEN 5.0% were readmitted (11,078 training patients, 0.4x the average)

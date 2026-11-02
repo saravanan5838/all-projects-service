@@ -1,0 +1,7 @@
+,Model 1: clinical points score,Model 2: learned points score,Model 2: IF-THEN rules,Reference: black-box model
+Accuracy,0.687,0.65,0.726,0.741
+Precision,0.141,0.178,0.196,0.207
+Recall (sensitivity),0.346,0.574,0.456,0.454
+Specificity,0.73,0.66,0.761,0.777
+F1 score,0.2,0.271,0.274,0.284
+AUC-ROC,0.563,0.648,0.654,0.669

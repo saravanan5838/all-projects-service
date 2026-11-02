@@ -1,0 +1,64 @@
+{
+  "base_paper": {
+    "key": "strack2014",
+    "authors": "B. Strack, J. P. DeShazo, C. Gennings, J. L. Olmo, S. Ventura, K. J. Cios, J. N. Clore",
+    "year": 2014,
+    "title": "Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records",
+    "venue": "BioMed Research International, vol. 2014, art. 781670",
+    "doi": "10.1155/2014/781670",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3996476"
+  },
+  "references": [
+    {
+      "key": "vanwalraven2010",
+      "authors": "C. van Walraven, I. A. Dhalla, C. Bell, E. Etchells, I. G. Stiell, K. Zarnke, P. C. Austin, A. J. Forster",
+      "year": 2010,
+      "title": "Derivation and validation of an index to predict early death or unplanned readmission after discharge from hospital to the community",
+      "venue": "CMAJ, vol. 182, no. 6, pp. 551-557",
+      "doi": "10.1503/cmaj.091117",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2845681"
+    },
+    {
+      "key": "kansagara2011",
+      "authors": "D. Kansagara, H. Englander, A. Salanitro, D. Kagen, C. Theobald, M. Freeman, S. Kripalani",
+      "year": 2011,
+      "title": "Risk Prediction Models for Hospital Readmission: A Systematic Review",
+      "venue": "JAMA, vol. 306, no. 15, pp. 1688-1698",
+      "doi": "10.1001/jama.2011.1515",
+      "url": "https://doi.org/10.1001/jama.2011.1515"
+    },
+    {
+      "key": "ustun2016",
+      "authors": "B. Ustun, C. Rudin",
+      "year": 2016,
+      "title": "Supersparse linear integer models for optimized medical scoring systems",
+      "venue": "Machine Learning, vol. 102, no. 3, pp. 349-391",
+      "doi": "10.1007/s10994-015-5528-6",
+      "url": "https://arxiv.org/abs/1502.04269"
+    },
+    {
+      "key": "rudin2019",
+      "authors": "C. Rudin",
+      "year": 2019,
+      "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+      "venue": "Nature Machine Intelligence, vol. 1, no. 5, pp. 206-215",
+      "doi": "10.1038/s42256-019-0048-x",
+      "url": "https://arxiv.org/abs/1811.10154"
+    },
+    {
+      "key": "tibshirani1996",
+      "authors": "R. Tibshirani",
+      "year": 1996,
+      "title": "Regression shrinkage and selection via the lasso",
+      "venue": "Journal of the Royal Statistical Society, Series B, vol. 58, no. 1, pp. 267-288",
+      "doi": "10.1111/j.2517-6161.1996.tb02080.x",
+      "url": "https://doi.org/10.1111/j.2517-6161.1996.tb02080.x"
+    }
+  ],
+  "dataset": {
+    "name": "Diabetes 130-US Hospitals for Years 1999-2008",
+    "doi": "10.24432/C5230J",
+    "licence": "CC BY 4.0",
+    "url": "https://archive.ics.uci.edu/dataset/296"
+  }
+}

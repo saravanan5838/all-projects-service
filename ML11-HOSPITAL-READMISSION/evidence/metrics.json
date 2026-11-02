@@ -1,0 +1,117 @@
+{
+  "split": {
+    "train_stays": "79,567",
+    "validation_stays_inside_train": "15,962",
+    "test_stays": "19,773",
+    "grouped_by": "patient_nbr",
+    "source": "M2 cell 7"
+  },
+  "selected_model": "Model 2: learned points score",
+  "selection_rule": "Size of the points score and of the rule tree chosen by validation AUC-ROC; the test set is used once.",
+  "models": {
+    "Model 1: clinical points score": {
+      "Accuracy": {
+        "value": 0.687,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Precision": {
+        "value": 0.141,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Recall (sensitivity)": {
+        "value": 0.346,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Specificity": {
+        "value": 0.73,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "F1 score": {
+        "value": 0.2,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "AUC-ROC": {
+        "value": 0.563,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      }
+    },
+    "Model 2: learned points score": {
+      "Accuracy": {
+        "value": 0.65,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Precision": {
+        "value": 0.178,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Recall (sensitivity)": {
+        "value": 0.574,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Specificity": {
+        "value": 0.66,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "F1 score": {
+        "value": 0.271,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "AUC-ROC": {
+        "value": 0.648,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      }
+    },
+    "Model 2: IF-THEN rules": {
+      "Accuracy": {
+        "value": 0.726,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Precision": {
+        "value": 0.196,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Recall (sensitivity)": {
+        "value": 0.456,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Specificity": {
+        "value": 0.761,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "F1 score": {
+        "value": 0.274,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "AUC-ROC": {
+        "value": 0.654,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      }
+    },
+    "Reference: black-box model": {
+      "Accuracy": {
+        "value": 0.741,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Precision": {
+        "value": 0.207,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Recall (sensitivity)": {
+        "value": 0.454,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "Specificity": {
+        "value": 0.777,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "F1 score": {
+        "value": 0.284,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      },
+      "AUC-ROC": {
+        "value": 0.669,
+        "source": "M2_learned_points_score.ipynb cell 21"
+      }
+    }
+  }
+}

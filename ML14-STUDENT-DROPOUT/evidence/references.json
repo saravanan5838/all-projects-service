@@ -1,0 +1,58 @@
+{
+  "base_paper": {
+    "key": "base",
+    "authors": "V. Realinho, J. Machado, L. Baptista, M. V. Martins",
+    "year": 2022,
+    "title": "Predicting Student Dropout and Academic Success",
+    "venue": "Data, vol. 7, no. 11, art. 146",
+    "doi": "10.3390/data7110146",
+    "url": "https://www.mdpi.com/2306-5729/7/11/146"
+  },
+  "references": [
+    {
+      "key": "kamiran2012",
+      "authors": "F. Kamiran, T. Calders",
+      "year": 2012,
+      "title": "Data preprocessing techniques for classification without discrimination",
+      "venue": "Knowledge and Information Systems, vol. 33, pp. 1-33",
+      "doi": "10.1007/s10115-011-0463-8",
+      "url": "https://link.springer.com/article/10.1007/s10115-011-0463-8"
+    },
+    {
+      "key": "hardt2016",
+      "authors": "M. Hardt, E. Price, N. Srebro",
+      "year": 2016,
+      "title": "Equality of Opportunity in Supervised Learning",
+      "venue": "Advances in Neural Information Processing Systems 29 (NeurIPS 2016)",
+      "doi": "10.48550/arXiv.1610.02413",
+      "url": "https://arxiv.org/abs/1610.02413"
+    },
+    {
+      "key": "gardner2019",
+      "authors": "J. Gardner, C. Brooks, R. Baker",
+      "year": 2019,
+      "title": "Evaluating the Fairness of Predictive Student Models Through Slicing Analysis",
+      "venue": "Proc. 9th Int. Conf. on Learning Analytics & Knowledge (LAK '19), pp. 225-234",
+      "doi": "10.1145/3303772.3303791",
+      "url": "https://doi.org/10.1145/3303772.3303791"
+    },
+    {
+      "key": "kizilcec2020",
+      "authors": "R. F. Kizilcec, H. Lee",
+      "year": 2020,
+      "title": "Algorithmic Fairness in Education",
+      "venue": "arXiv:2007.05443 (chapter in Ethics in Artificial Intelligence in Education)",
+      "doi": "10.48550/arXiv.2007.05443",
+      "url": "https://arxiv.org/abs/2007.05443"
+    },
+    {
+      "key": "ke2017",
+      "authors": "G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, T.-Y. Liu",
+      "year": 2017,
+      "title": "LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+      "venue": "Advances in Neural Information Processing Systems 30 (NeurIPS 2017), pp. 3146-3154",
+      "doi": null,
+      "url": "https://proceedings.neurips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf"
+    }
+  ]
+}
