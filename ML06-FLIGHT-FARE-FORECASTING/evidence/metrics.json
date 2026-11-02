@@ -1,0 +1,98 @@
+{
+  "split": {
+    "train": "Jun 1990 to Aug 2023",
+    "train_months": 399,
+    "test": "Sep 2023 to Aug 2026",
+    "test_months": 36,
+    "source": "M2_arimax.ipynb cell 8"
+  },
+  "selected_model": "ARIMAX (with macro)",
+  "selection_rule": "Lowest test MAPE among models scored on the same 36 test months.",
+  "models": {
+    "ARIMAX (with macro)": {
+      "MAPE %": 1.771,
+      "RMSE": 5.623,
+      "R2": 0.923,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "ARIMAX tuned (1, 1, 2)": {
+      "MAPE %": 1.782,
+      "RMSE": 5.712,
+      "R2": 0.92,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "ARIMAX walk-forward (with macro)": {
+      "MAPE %": 1.805,
+      "RMSE": 5.749,
+      "R2": 0.919,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "ARIMA walk-forward (no macro)": {
+      "MAPE %": 1.848,
+      "RMSE": 5.837,
+      "R2": 0.917,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "ARIMA (no macro)": {
+      "MAPE %": 1.849,
+      "RMSE": 5.777,
+      "R2": 0.919,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "Ensemble (avg of 3)": {
+      "MAPE %": 1.888,
+      "RMSE": 5.955,
+      "R2": 0.913,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "Naive (last month)": {
+      "MAPE %": 2.152,
+      "RMSE": 6.958,
+      "R2": 0.882,
+      "source": "M2_arimax.ipynb cell 19"
+    },
+    "Linear regression (macro only)": {
+      "MAPE %": 11.729,
+      "RMSE": 33.686,
+      "R2": -1.771,
+      "source": "M2_arimax.ipynb cell 19"
+    }
+  },
+  "horizons": {
+    "1": {
+      "naive_mape": 2.15,
+      "arima_mape": 1.85,
+      "arimax_mape": 1.77,
+      "macro_gain_pct": 4.23
+    },
+    "3": {
+      "naive_mape": 4.97,
+      "arima_mape": 4.71,
+      "arimax_mape": 4.72,
+      "macro_gain_pct": -0.28
+    },
+    "6": {
+      "naive_mape": 6.96,
+      "arima_mape": 6.96,
+      "arimax_mape": 6.78,
+      "macro_gain_pct": 2.64
+    },
+    "12": {
+      "naive_mape": 7.97,
+      "arima_mape": 7.88,
+      "arimax_mape": 7.65,
+      "macro_gain_pct": 2.94
+    }
+  },
+  "linear_regression_model_1": {
+    "coefficients": {
+      "const": 1.9025,
+      "fuel": 0.1344,
+      "cpi": 0.5643,
+      "unemp": 0.025,
+      "sentiment": 0.0049,
+      "covid": -0.3
+    },
+    "source": "M2_arimax.ipynb cell 12"
+  }
+}

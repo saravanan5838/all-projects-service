@@ -1,0 +1,69 @@
+{
+  "base_paper": {
+    "key": "atems2019",
+    "authors": "B. Atems, L. Bachmeier, C. Williams",
+    "year": 2019,
+    "title": "Do jet fuel price movements help forecast airline fares and the demand for air travel?",
+    "venue": "Applied Economics Letters, vol. 26, no. 11, pp. 877-882",
+    "doi": "10.1080/13504851.2018.1510466",
+    "url": "https://ideas.repec.org/a/taf/apeclt/v26y2019i11p877-882.html"
+  },
+  "references": [
+    {
+      "key": "hyndman2006",
+      "authors": "R. J. Hyndman, A. B. Koehler",
+      "year": 2006,
+      "title": "Another look at measures of forecast accuracy",
+      "venue": "International Journal of Forecasting, vol. 22, no. 4, pp. 679-688",
+      "doi": "10.1016/j.ijforecast.2006.03.001",
+      "url": "https://doi.org/10.1016/j.ijforecast.2006.03.001"
+    },
+    {
+      "key": "diebold1995",
+      "authors": "F. X. Diebold, R. S. Mariano",
+      "year": 1995,
+      "title": "Comparing predictive accuracy",
+      "venue": "Journal of Business & Economic Statistics, vol. 13, no. 3, pp. 253-263",
+      "doi": "10.1080/07350015.1995.10524599",
+      "url": "https://econpapers.repec.org/RePEc:bes:jnlbes:v:13:y:1995:i:3:p:253-63"
+    },
+    {
+      "key": "granger1974",
+      "authors": "C. W. J. Granger, P. Newbold",
+      "year": 1974,
+      "title": "Spurious regressions in econometrics",
+      "venue": "Journal of Econometrics, vol. 2, no. 2, pp. 111-120",
+      "doi": "10.1016/0304-4076(74)90034-7",
+      "url": "https://doi.org/10.1016/0304-4076(74)90034-7"
+    },
+    {
+      "key": "seabold2010",
+      "authors": "S. Seabold, J. Perktold",
+      "year": 2010,
+      "title": "statsmodels: Econometric and statistical modeling with Python",
+      "venue": "Proceedings of the 9th Python in Science Conference (SciPy 2010), pp. 92-96",
+      "doi": "10.25080/Majora-92bf1922-011",
+      "url": "https://proceedings.scipy.org/articles/Majora-92bf1922-011.pdf"
+    },
+    {
+      "key": "hyndman2021",
+      "authors": "R. J. Hyndman, G. Athanasopoulos",
+      "year": 2021,
+      "title": "Forecasting: Principles and Practice, 3rd edition (chapter 10, Dynamic regression models)",
+      "venue": "OTexts, Melbourne",
+      "doi": null,
+      "url": "https://otexts.com/fpp3/"
+    }
+  ],
+  "data_source": {
+    "name": "FRED, Federal Reserve Bank of St. Louis",
+    "url": "https://fred.stlouisfed.org/",
+    "series": [
+      "CUSR0000SETG01",
+      "DJFUELUSGULF",
+      "CPIAUCSL",
+      "UNRATE",
+      "UMCSENT"
+    ]
+  }
+}
