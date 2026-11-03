@@ -1,0 +1,5 @@
+disturbance_type,events,basic_detected,optimised_detected,basic_recall,optimised_recall
+1,84,77,61,0.917,0.726
+2,249,91,1,0.365,0.004
+3,183,51,0,0.279,0.0
+4,54,40,35,0.741,0.648

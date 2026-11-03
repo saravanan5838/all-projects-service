@@ -1,0 +1,4 @@
+Model,Train R2,Test R2,RMSE,MAE,Fit time (s),Overfit gap,RMSE reduction vs this model (%)
+Linear Regression (basic),0.4401,0.4378,3.3111,2.6598,5.8069,0.0023,47.4303
+Random Forest (basic),0.9718,0.7994,1.9779,1.5671,3001.2968,0.1724,11.9978
+LightGBM tuned (optimised),0.8549,0.8446,1.7406,1.3702,57.596,0.0103,0.0

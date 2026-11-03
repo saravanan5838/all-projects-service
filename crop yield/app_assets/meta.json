@@ -1,0 +1,124 @@
+{
+  "columns": [
+    "weather_zone",
+    "irrigation_method",
+    "soil_ph",
+    "irrigation_mm",
+    "days_from_last_harvest",
+    "seed_quality",
+    "soil_type",
+    "fertilized",
+    "nitrogen_kg_ha",
+    "season",
+    "rainfall_mm",
+    "avg_temp_c",
+    "crop_type",
+    "phosphorus_kg_ha",
+    "humidity_pct",
+    "pest_index",
+    "potassium_kg_ha"
+  ],
+  "cat_options": {
+    "weather_zone": [
+      "dry",
+      "humid",
+      "temperate",
+      "tropical"
+    ],
+    "irrigation_method": [
+      "drip",
+      "flood",
+      "sprinkler"
+    ],
+    "seed_quality": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "soil_type": [
+      "clay",
+      "loam",
+      "peat",
+      "sandy",
+      "silt"
+    ],
+    "fertilized": [
+      "no",
+      "yes"
+    ],
+    "season": [
+      "autumn",
+      "spring",
+      "summer",
+      "winter"
+    ],
+    "crop_type": [
+      "corn",
+      "cotton",
+      "rice",
+      "soybean",
+      "wheat"
+    ]
+  },
+  "cat_defaults": {
+    "weather_zone": "temperate",
+    "irrigation_method": "sprinkler",
+    "seed_quality": "medium",
+    "soil_type": "loam",
+    "fertilized": "yes",
+    "season": "winter",
+    "crop_type": "corn"
+  },
+  "num_ranges": {
+    "soil_ph": {
+      "min": 4.87,
+      "max": 8.16,
+      "default": 6.51
+    },
+    "irrigation_mm": {
+      "min": 33.0,
+      "max": 403.0,
+      "default": 147.0
+    },
+    "days_from_last_harvest": {
+      "min": 1.0,
+      "max": 548.0,
+      "default": 83.0
+    },
+    "nitrogen_kg_ha": {
+      "min": 46.54,
+      "max": 316.2783999999999,
+      "default": 121.27
+    },
+    "rainfall_mm": {
+      "min": 339.0,
+      "max": 1338.0,
+      "default": 837.0
+    },
+    "avg_temp_c": {
+      "min": 12.0,
+      "max": 36.0,
+      "default": 24.0
+    },
+    "phosphorus_kg_ha": {
+      "min": 24.09,
+      "max": 132.83790000000008,
+      "default": 56.57
+    },
+    "humidity_pct": {
+      "min": 60.4,
+      "max": 99.55,
+      "default": 85.81
+    },
+    "pest_index": {
+      "min": 2.0,
+      "max": 70.0,
+      "default": 26.0
+    },
+    "potassium_kg_ha": {
+      "min": 28.79,
+      "max": 156.78700000000012,
+      "default": 67.2
+    }
+  }
+}
